@@ -1,0 +1,53 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d6da;
+  font-weight: bold;
+  width: 50px;
+  height: 60px;
+  border-radius: 4px;
+}
+
+.keyboard-block-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d6da;
+  font-weight: bold;
+  font-size: 14px;
+  width: 70px;
+  height: 60px;
+  border-radius: 4px;
+}
+
+.keyboard-block-backspace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d6da;
+  font-weight: bold;
+  width: 70px;
+  height: 60px;
+  border-radius: 4px;
+  padding: 0 10px 0 10px;
+}
+
+.keyboard-block-backspace img {
+  width: 24px;
+}
